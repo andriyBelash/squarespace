@@ -1,4 +1,4 @@
-
+//==========================================================================================================================================
 ._swiper {
 	overflow: hidden;
 	//.swiper-wrapper
@@ -34,4 +34,23 @@
 }
 .swiper-button-lock {
 	display: none !important;
+}
+
+//==========================================================================================================================================
+.btn {
+	color: #000;
+	font-size: 14px;
+    text-transform: uppercase;
+	display: inline-flex;
+	align-items: center;
+	min-height: 56px;
+	background-color: #fff;
+	padding: 0 31px;
+	transition: all 0.3s ease;
+	@media (any-hover: hover) {
+		&:hover {
+			transition: all 0.3s ease;
+			box-shadow: 0px 0px 10px #fff;
+		}
+	}
 }

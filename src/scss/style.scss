@@ -2,12 +2,12 @@
 
 
 //&display=swap&subset=cyrilic-ext
-@import url(https://fonts.googleapis.com/css?family=Inter:regular,500,600,800);
+@import url(https://fonts.googleapis.com/css?family=Roboto:regular&display=swap);
 //ПЕРЕМЕННЫЕ
-$fontFamily: "Inter";
+$fontFamily: "Roboto";
 $minWidth: 320px;
 $maxWidth: 1152px;
-$maxWidthContainer: 1210px;
+$maxWidthContainer: 1390px;
 $md1: $maxWidthContainer + 12;
 $md2: 991.98px;
 $md3: 767.98px;
@@ -19,7 +19,6 @@ $md4: 479.98px;
 	overflow: hidden;
 	display: flex;
 	flex-direction: column;
-	font-family: Inter;
 	&._loaded {
 		
 	}
@@ -29,16 +28,16 @@ $md4: 479.98px;
 	max-width: $maxWidthContainer;
 	margin: 0 auto;
 	padding: 0 15px;
-	@media (max-width:991.98px){
-		max-width: 970px;
-	}
-	@media (max-width: 991.98px){
-		max-width: 750px;
-	}
-	@media (max-width: 479.98px){
-		max-width: none;
-		padding: 0 10px;
-	}
+	// @media (max-width:991.98px){
+	// 	max-width: 970px;
+	// }
+	// @media (max-width: 991.98px){
+	// 	max-width: 750px;
+	// }
+	// @media (max-width: 479.98px){
+	// 	max-width: none;
+	// 	padding: 0 10px;
+	// }
 }
 ._ibg{
 	position: relative;
@@ -53,10 +52,10 @@ $md4: 479.98px;
 }
 .page{
 	flex: 1 1 auto;
-	padding: 102px 0 150px 0;
 }
 
 @import "fonts";
+@import "mixin";
 @import "null";
 @import "ui";
 @import "header";

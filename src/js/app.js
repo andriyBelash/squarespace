@@ -4,11 +4,11 @@ flsFunctions.isWebp();
 
 flsFunctions.menuInit();
 
-flsFunctions.isSwiper();
+// flsFunctions.isSwiper();
 
 flsFunctions.isSpoller();
 
-flsFunctions.isDinamicAdaptive();
+ flsFunctions.isDinamicAdaptive();
 
 import './files/tippy.js'
 
