@@ -16,6 +16,12 @@
     &__imagine {
         position: relative;
     }
+
+    // .page__grid-content
+
+    &__grid-content {
+        background-color: #60777C;
+    }
 }
 //==========================================================================================================================================
 .main-block {
@@ -251,6 +257,99 @@
         left: 0;
     }
 }
+//==========================================================================================================================================
+.grid-content {
+
+    // .grid-content__container
+
+    &__container {
+    }
+
+    // .grid-content__content
+
+    &__content {
+        @include adaptiv-value('padding-top', 80, 40, 1);
+        @include adaptiv-value('padding-bottom', 120, 50, 1);
+    }
+
+    // .grid-content__title-text
+
+    &__title-text {
+        text-align: center;
+        color: #FFFFFF;
+        max-width: 642px;
+        margin: 0 auto;
+    }
+
+    // .grid-content__title
+
+    &__title {
+        margin-bottom: 22px;
+    }
+
+    // .grid-content__text
+
+    &__text {
+        
+    }
+
+    // .grid-content__body
+
+    &__body {
+        @include adaptiv-value('padding-top', 120, 40, 1);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 40px;
+        row-gap: 120px;
+        align-items: center;
+        @media (max-width: 768px) {
+            grid-template-columns: 1fr;
+            justify-items: center;
+            gap: 40px;
+        }
+    }
+
+    // .grid-content__item
+
+    &__item {
+    }
+
+    // .grid-content__block
+
+    &__block {
+    }
+
+    // .grid-content__image
+
+    &__image {
+        img{
+            max-width: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+.item-block-grid {
+    max-width: 540px;
+    @media (max-width: 768px){
+        text-align: center;
+    }
+    // .item-block-grid__title
+
+    &__title {
+        @include adaptiv-value('font-size', 40, 25, 1);
+        color: #FFFFFF;
+        margin-bottom: 22px;
+    }
+
+    // .item-block-grid__text
+
+    &__text {
+        color: #FFFFFF;
+        @include adaptiv-value('font-size', 22, 16, 1);
+    }
+}
+
 
 
 

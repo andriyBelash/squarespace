@@ -61,3 +61,70 @@
 	@include adaptiv-value("font-size", 22, 18, 1);
     line-height: 120%;
 }
+//==========================================================================================================================================
+.block1{
+	@media (max-width: 768px) {
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 2;
+		grid-row-end: 3;
+	}
+}
+.block2{
+	@media (max-width: 768px) {
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 1;
+		grid-row-end: 2;
+	}
+}
+.block3{
+	@media (max-width: 768px) {
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 3;
+		grid-row-end: 4;
+	}
+}
+.block4{
+	@media (max-width: 768px) {
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 4;
+		grid-row-end: 5;
+	}
+	
+}
+.block4{
+	@media (max-width: 768px) {
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 6;
+		grid-row-end: 7;
+	}
+}
+.block6{
+	@media (max-width: 768px) {
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 5;
+		grid-row-end: 6;
+	}
+	
+}
+.block7{
+	@media (max-width: 768px) {
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 7;
+		grid-row-end: 8;
+	}
+}
+.block8{
+	@media (max-width: 768px) {
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 8;
+		grid-row-end: 9;
+	}
+}
